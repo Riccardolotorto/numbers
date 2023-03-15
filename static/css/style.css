@@ -1,13 +1,25 @@
 .immagine {
     height: 100;
     width: 150;
+    padding: 10px;
 }
 .colonna {
-    height: 300;
+    height: 320;
     width: 150;
     float: left;
 }
 .quadrato {
-    height: 300;
-    width: 450;
+    height: 320;
+    width: 470;
+    margin: auto;
+}
+h1 {
+    font-family: Perpetua;
+    font-size: 45px;
+}
+p {
+    font-family: Perpetua;
+}
+.centro {
+    text-align: center;
 }
