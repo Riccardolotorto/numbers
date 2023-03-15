@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>Numbers</title>
+        <link rel = "stylesheet" href = "{{url_for('static', filename='css/style.css')}}">
+    </head>
+    <body>
+        <h1>Numbers: che numero ho pensato?</h1>
+        <p>clicca su un numero per vedere se è quello che ho pensato</p>
+        <div class="quadrato">
+            <div class= "colonna">
+                <img src = "{{url_for('static', filename='images/uno.jpg')}}" class="immagine">
+                <img src = "{{url_for('static', filename='images/due.jpg')}}" class="immagine">
+                <img src = "{{url_for('static', filename='images/tre.jpg')}}" class="immagine">
+            </div>
+            <div class= "colonna">
+                <img src = "{{url_for('static', filename='images/quattro.jpg')}}" class="immagine">
+                <img src = "{{url_for('static', filename='images/cinque.jpg')}}" class="immagine">
+                <img src = "{{url_for('static', filename='images/sei.jpg')}}" class="immagine">
+            </div>
+            <div class= "colonna">
+                <img src = "{{url_for('static', filename='images/sette.jpg')}}" class="immagine">
+                <img src = "{{url_for('static', filename='images/otto.jpg')}}" class="immagine">
+                <img src = "{{url_for('static', filename='images/nove.jpg')}}" class="immagine">
+            </div>
+        </div>
+    </body>
+</html>

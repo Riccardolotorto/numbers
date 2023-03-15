@@ -1,0 +1,13 @@
+.immagine {
+    height: 100;
+    width: 150;
+}
+.colonna {
+    height: 300;
+    width: 150;
+    float: left;
+}
+.quadrato {
+    height: 300;
+    width: 450;
+}
